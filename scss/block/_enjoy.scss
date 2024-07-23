@@ -1,18 +1,17 @@
 .enjoy{
     width: 100%;
-    border: 1px solid red;
     padding-top: 70px;
-    padding-bottom: 200px;
+    padding-bottom: 350px;
     background-image: url(../../assets/bg_img_hero.png);
     background-position: left;
     background-position-y: bottom;
     background-repeat: no-repeat;
     .enjoy__wrapper{
         width: 100%;
+        padding-top: 70px;
         display: flex;
         .enjoy__text{
             width: 50%;
-            border: 1px solid red;
             display: flex;
             flex-direction: column;
             gap: 28px;
@@ -37,6 +36,13 @@
                 display: flex;
                 align-items: center;
                 gap: 20px;
+                p{
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 18px;
+                    color: 
+                    #F4AE26;
+                }
                 .enjoy__btn{
                     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
                     cursor: pointer;

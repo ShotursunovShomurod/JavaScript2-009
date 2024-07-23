@@ -1,0 +1,109 @@
+.popular {
+  width: 100%;
+  .popular__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    .popular__suptitle {
+        width: 100%;
+        padding-left: 40px;
+        p {
+            margin-top: -240px;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 48px;
+            width: 313ox;
+        }
+    }
+    .popular__block {
+        width: 100%;
+        background: #F9D9AA;
+        border-radius: 100px 200px 100px 100px;
+        margin-top: -80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px 40px 40px;
+        .popular__card {
+            margin-top: -100px;
+            padding: 24px 18px;
+            background: #fff;
+            width: 343px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            .popular__img {
+          width: 100%;
+          height: 60%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .popular__text {
+          width: 100%;
+          height: 40%;
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          .popular__context {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: space-between;
+            p:nth-child(1) {
+              font-size: 24px;
+              color: #2f2105;
+              line-height: 36px;
+              font-weight: 600;
+            }
+            p:nth-child(2) {
+              font-size: 24px;
+              color: #2f2105;
+              line-height: 36px;
+              font-weight: 700;
+            }
+          }
+          .popular__btn {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .popular__button {
+              width: 100%;
+              height: 50%;
+            }
+            .popular__button {
+              width: 50%;
+              button {
+                cursor: pointer;
+                width: 64px;
+                height: 32px;
+                border-radius: 10px;
+                background: transparent;
+                border: none;
+                // border: 2px solid #FF902B
+                border: 2px solid #ffd28f;
+              }
+            }
+            .populaar__icon {
+              button {
+                width: 43px;
+                height: 43px;
+                border-radius: 50%;
+                border: none;
+                background: #ff902b;
+                img {
+                  width: 100%;
+                  height: 100%;
+                  padding: 10px;
+                  border: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
