@@ -5,8 +5,8 @@
 }
 .header{
     background: #F6EBDA;
-    background-image: url(../../assets/bg_img_hero.png),url(/assets/bg_img_hero.png);
-    background-position: left bottom, right top;
+    background-image: url(../../assets/bg_img_hero.png);
+    background-position: left bottom;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -47,5 +47,5 @@ p{
     margin-bottom: 20px;
 }
 p:nth-child(3){
-    color: gold;
+    color: rgb(255, 217, 0);
 }
